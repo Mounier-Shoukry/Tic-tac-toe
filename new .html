@@ -1,0 +1,62 @@
+<!doctype html>
+<!-- This code  Developed By Mounier Shoukry on 10/10/2016  all copy rights are reserved for any information Monier.s.gablla@gmail.com-->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tic tac toe</title>
+	<script type="text/javascript" src='script.js'></script>
+	<style>
+	  .cell{
+		    width: 96px;
+			height: 96px;
+			display: block;
+			text-align: center;
+		    font-size: 79px;
+			
+	  }
+	  .score{
+	      width:50px;
+		  height:50px;
+		  display:inline-block;
+	  }
+	</style>
+</head>
+<body>
+<center>
+<h3 style="color:red">Note: all ways to win are closed only one way is open try to find it enjoy &#9786;.<h5>
+ <table style=" font-weight: bold;font-size: 35px; text-align: center; width:116px;height:173px;display:block;" border="1" cellspacing='4'>
+		<tr rowspan=2>
+			<td>Score</td>
+		<tr/>
+		<tr>
+		  <td class="score">X</td>
+		  <td class="score">O</td>
+		</tr>
+		<tr>
+			<td class="score"><span id="player1Score" class="cell1">0</span></td>
+			<td class="score"><span id="player2Score" class="cell1">0</span></td>
+		<tr/>
+ </table>
+ <br/>
+<table border='1' width="300" height="300">
+ <tr>
+ 	<td><span id="cell_00" class="cell" onclick="onCellClick(this,0,0)"></span></td>
+ 	<td><span id="cell_01" class="cell" onclick="onCellClick(this,0,1)"></span></td>
+ 	<td><span id="cell_02" class="cell" onclick="onCellClick(this,0,2)"></span></td>
+ </tr>
+ <tr>
+ 	<td><span id="cell_10" class="cell" onclick="onCellClick(this,1,0)"></span></td>
+ 	<td><span id="cell_11" class="cell" onclick="onCellClick(this,1,1)"></span></td>
+ 	<td><span id="cell_12" class="cell" onclick="onCellClick(this,1,2)"></span></td>
+ </tr>
+ <tr>
+ 	<td><span id="cell_20" class="cell" onclick="onCellClick(this,2,0)"></span></td>
+ 	<td><span id="cell_21" class="cell" onclick="onCellClick(this,2,1)"></span></td>
+ 	<td><span id="cell_22" class="cell" onclick="onCellClick(this,2,2)"></span></td>
+ </tr>
+</table>
+<br/><br/><br/><br/>
+Mother Light 2016&copy; All copy rights are reserved for <a target='blank' href="https://eg.linkedin.com/in/monier-shokry-983b555b">Mounier Shoukry</a>
+</center>
+</body>
+</html>
