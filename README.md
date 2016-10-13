@@ -7,13 +7,12 @@ Also code it self i written to handle attack and  defense between computer and p
 
 I hope you enjoyed this game
 
-supported browsers: Chrome, ineternet Explorer 11 
+supported browsers: Chrome, ineternet Explorer 11 ,Firefox
 
 future work
 
 1- add levels in game
-2- support chorme and safari
-3- sotore high scored
+2- sotore high scored
 
 All copy rights are Reserved for Monier Shokry. means no copy without  official agreement.
 
