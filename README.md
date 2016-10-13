@@ -12,7 +12,7 @@ supported browsers: Chrome, ineternet Explorer 11 ,Firefox
 future work
 
 1- add levels in game
-2- sotore high scored
+2- store high scored
 
 All copy rights are Reserved for Monier Shokry. means no copy without  official agreement.
 
